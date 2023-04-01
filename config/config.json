@@ -1,14 +1,7 @@
 {
     "development": {
-      "username": "sovmulax",
-      "password": "eA9iZ4MukcraDBT",
-      "database": "portfolio",
-      "host": "127.0.0.1",
-      "dialect": "mysql"
-    },
-    "test": {
-      "username": "sovmulax",
-      "password": "eA9iZ4MukcraDBT",
+      "username": "root",
+      "password": "root",
       "database": "portfolio",
       "host": "127.0.0.1",
       "dialect": "mysql"
@@ -17,7 +10,7 @@
       "username": "sovmulax",
       "password": "eA9iZ4MukcraDBT",
       "database": "portfolio",
-      "host": "127.0.0.1",
+      "host": "142.93.191.252",
       "dialect": "mysql"
     }
   }
