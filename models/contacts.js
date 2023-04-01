@@ -7,12 +7,10 @@ module.exports = (sequelize, DataTypes) => {
       nom: {
         type: DataTypes.TEXT,
         allowNull: false,
-        unique: true,
       },
       email: {
         type: DataTypes.TEXT,
         allowNull: false,
-        unique: true,
         validate: {
           isEmail: true,
         },
@@ -20,17 +18,14 @@ module.exports = (sequelize, DataTypes) => {
       phone: {
         type: DataTypes.TEXT,
         allowNull: false,
-        unique: true,
       },
       subject: {
         type: DataTypes.TEXT,
         allowNull: false,
-        unique: true,
       },
       message: {
         type: DataTypes.TEXT,
         allowNull: false,
-        unique: true,
       },
     },
     {
